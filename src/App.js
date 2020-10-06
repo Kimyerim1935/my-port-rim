@@ -9,26 +9,21 @@ import Contect from './routes/Contect';
 
 function App() {
   return ( 
-    <HashRouter> 
-  <div>
-   <Navigation/> 
-    <div> 
-        <Route exact path='/' component={Main} /> 
-        <Route path='/About' component={About} /> 
-        <Route path='/Portfolio' component={Portfolio} /> 
-        <Route path='/Contect' component={Contect} /> 
-    </div> 
-  <Footer/> 
-  </div> 
+   <HashRouter> 
+     <div>
+       <Navigation/> 
+       
+         <div> 
+            <Route exact path='/' component={Main} /> 
+            <Route path='/About' component={About} /> 
+            <Route path='/Portfolio' component={Portfolio} /> 
+            <Route path='/Contect' component={Contect} /> 
+         </div> 
+      </div> 
+
   </HashRouter>
   );
 }
-
-
- const Footer = () => (
-  <div className="Footerdesign"> 
-  copyright 2020  ⓒ Kimyerim All rights reserved.
-  </div> )
 
 
 
