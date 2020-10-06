@@ -1,4 +1,23 @@
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Footerdesign {
+  text-align: center;
+  display: bottom;
+  width: 100%;
+  background-color: #d7d7d7;
+  font-size: 13px;
+  height: 50px;
+}
+
+.Navidesign {
+  text-decoration: none;
+}
+
+.Headerdesign {
+    color: #184165; 
 }
 
