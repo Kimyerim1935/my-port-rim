@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navigation.css';
-import '../image/navHam.svg';
+
+
 
 function Navigation() {
     return(
