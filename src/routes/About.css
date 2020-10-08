@@ -1,0 +1,48 @@
+.about__container {    
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+}
+.me2{
+        width: 330px;
+        height: 100%;
+        padding: 20px 0 0 10px;
+        background-color: limegreen;
+
+}
+
+.about01 {
+        font-size: 18px;
+        margin: 0;
+        color : #000000;
+        height: 50%;
+        font-weight: 400;
+        align-items: flex;
+        display: left;
+        margin-left: 340px;
+        padding: 20px 0 0 10px;
+        background-color: lightcoral;
+        position: absolute;
+}
+.title{
+        font-size: 30px;
+        font-weight: 700;
+        color: 000000;
+        display: left;
+}
+.textbox{
+        position: relative;
+        display: left;
+        align-items: flex;
+        width: 480px;
+        height: 400px;
+        font-size: 20px;
+        font-weight: 400;
+        background-color: lightskyblue;
+}
+
+.about02{
+
+}
