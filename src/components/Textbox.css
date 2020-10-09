@@ -1,42 +1,69 @@
-.textbox{
+.contentsbox{
+    width: 390px;
+    height: 230px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
     display: flex;
-    align-items: flex;
-    width: 480px;
-    height: 300px;
-    font-size: 20px;
-    font-weight: 400;
-    margin: 0 20px 0px 20px;
-    justify-content: space-between;
-}
-
-.title{
-    font-size: 25px;
-    font-weight: 700;
-    color: 000000;
-    display: left;
-}
-
-.contentsbox1{
-    width: 150px;
-    align-items: flex-start;
-    font-size: 12px;
-background-color: lime;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid #BBDBF0 6px;
+    box-shadow: 6px 6px 18px rgba(24, 65, 101 ,.15);
 }
 .contentsbox2{
-    width: 270px;
-    align-items: flex-end;
-    font-size: 12px;
-    background-color: magenta;
-} 
+    width: 390px;
+    height: 165px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    display: flex;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid #BBDBF0 6px;
+    box-shadow: 6px 6px 18px rgba(24, 65, 101 ,.15);
+}
+.contentsbox3{
+    width: 320px;
+    height: 230px;
+    padding: 20px 10px 50px 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid #BBDBF0 6px;
+    box-shadow: 6px 6px 18px rgba(24, 65, 101 ,.15);
 
-.Lefttext{
-    margin: 0 0 15px 0;
-    font-weight: 400;
+}
+.contentsbox4{
+    width: 320px;
+    height: 165px;
+    padding: 20px 10px 10px 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid #BBDBF0 6px;
+    box-shadow: 6px 6px 18px rgba(24, 65, 101 ,.15);
 }
 
-.Righttext{
-
-    margin: 0 0 15px 0;
+.leftbox{
+    width: 35%;
     font-weight: 400;
-    font-size: 18px;
+    text-align: left;
+    line-height: 15px;
+}
+.rightbox{
+    width: 65%;
+    text-align: right;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+
+.instatext{
+    color:#ADADAD;
+    font-size: 12px;
+    font-weight: 400;
 }
