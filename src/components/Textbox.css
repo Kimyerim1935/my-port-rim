@@ -1,0 +1,42 @@
+.textbox{
+    display: flex;
+    align-items: flex;
+    width: 480px;
+    height: 300px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 20px 0px 20px;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+    color: 000000;
+    display: left;
+}
+
+.contentsbox1{
+    width: 150px;
+    align-items: flex-start;
+    font-size: 12px;
+background-color: lime;
+}
+.contentsbox2{
+    width: 270px;
+    align-items: flex-end;
+    font-size: 12px;
+    background-color: magenta;
+} 
+
+.Lefttext{
+    margin: 0 0 15px 0;
+    font-weight: 400;
+}
+
+.Righttext{
+
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
