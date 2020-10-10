@@ -53,3 +53,13 @@
         margin-top: 300px;
         color: #002B52;
 }
+
+@media screen and (max-width:768px) {
+        .me2{
+                width: 330px;
+                height: 100%;
+                padding: 20px 0 0 10px;
+                align-items: center;
+        
+        }
+}
