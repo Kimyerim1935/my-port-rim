@@ -8,7 +8,7 @@ function Contect(){
     
          <div className="Contect__container1">
             <h2 className="contecttext">Resume</h2>
-            <img src={ Resume } alt="resume" / >
+            <img src={ Resume } alt="resume" className="Resume" / >
         </div>
  
     );

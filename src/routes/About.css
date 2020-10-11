@@ -2,7 +2,7 @@
         width: 100%;
         height: 100vh;
         display: flex;
-        background-color: #F9F9F9;
+        background-color: #002B52;
 }
 .me2{
         width: 330px;
@@ -55,11 +55,34 @@
 }
 
 @media screen and (max-width:768px) {
+        .about__container {    
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                background-color: #002B52;
+                flex-direction: row;
+        }
+
         .me2{
                 width: 330px;
                 height: 100%;
-                padding: 20px 0 0 10px;
+                padding: 50px 0 0 10px;
                 align-items: center;
-        
+                background-color: aqua;
+                display: flex;
         }
+        .about01 {
+                width: 35%;
+                height: 100%;
+                font-size: 18px;
+                color : #000000;
+                font-weight: 400;
+                position: absolute;
+                padding: 85px 0 0 20px;
+                margin: 0 0 0 360px;
+                flex-direction: row;
+               
+                
+        }
+
 }

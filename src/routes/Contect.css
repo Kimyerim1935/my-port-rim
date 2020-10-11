@@ -9,7 +9,6 @@
     width: 50%;
     height: 50%;
     padding: 120px 0 0 20px;
-    background-color: lawngreen;
     position: relative;
 }
 .Contect__container2{
@@ -17,11 +16,30 @@
     height: 50%;
     padding: 120px 0 0 20px;
     margin-left: 560px;
-    background-color: lawngreen;
     position: relative;
 }
 .contecttext{
     font-size: 30px;
     font-weight: 700;
     color: #002B52;
+}
+
+.Resume{
+    position: relative;
+}
+
+@media screen and (max-width:768px) {
+    .Contectbody{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: aquamarine;
+    }
+
+    .Resume {
+        width:30%;
+        height:40%;
+    }
 }
