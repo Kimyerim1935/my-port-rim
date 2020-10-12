@@ -37,9 +37,16 @@
         position: absolute;
         background-color: aquamarine;
     }
-
+    .contecttext{
+        font-size: 30px;
+        font-weight: 700;
+        color: #002B52;
+        padding-left: 15px;
+    }
     .Resume {
-        width:120%;
-        height:120%;
+        width:160%;
+        height:150%;
+        position: relative;
+        padding-left: 10px;
     }
 }
