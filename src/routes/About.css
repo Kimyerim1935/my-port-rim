@@ -2,7 +2,7 @@
         width: 100%;
         height: 100vh;
         display: flex;
-        justify-content: space-between;
+        overflow: auto;
 }
 .me2{
         width: 360px;
@@ -12,24 +12,17 @@
         }
 
 .about01 {
-        width: 35%;
+        width: 50%;
         height: 100%;
-        font-size: 18px;
-        color : #000000;
-        font-weight: 400;
-        padding: 85px 0 0 70px;
-        margin:0;
-        flex-direction: row;
+        margin: 0;
+        padding: 80px 0 0 40px ;
 }
 .about02 {
-        width: 40%;
+        width: 50%;
         height: 100%;
-        font-size: 18px;
-        color : #000000;
-        font-weight: 400;
         margin: 0;
-        padding: 85px 0 0 70px ;
-        flex-direction: row;
+        padding: 80px 0 0 40px ;
+        justify-content: center;
 }
 
 .title{
@@ -44,14 +37,14 @@
         height: 25px;
         font-size: 25px;
         font-weight: 700;
-        margin-top: 300px;
+        margin-top: 70px;
         color: #002B52;
 }
 
 @media screen and (max-width:768px) {
         .about__container {    
                 margin: 0px;
-                padding: 0px;
+                padding-top: 80px;
                 width: 100%;
                 height: 100%;
                 flex-direction: column;
@@ -60,20 +53,20 @@
         .me2{
                 width: 330px;
                 height: 100%;
-                padding: 150px 0 0 20px;
+                padding: 80px 0 0 0;
                 margin-left: 80px;
                 align-items: center;
+                background-color: cadetblue;
         }
 
         .about01 {
-                width: 100%;
-                height: 100%;
+                width: 35%;
+                height: 50%;
                 font-size: 18px;
                 color : #000000;
                 font-weight: 400;
-                padding: 30px 0 0 50px; 
-                margin: 0; 
-   
+                padding: 30px 0 0 50px;
+                margin-top: 30px;  
         }
         .about02 {
                 width: 35%;
@@ -81,8 +74,9 @@
                 font-size: 18px;
                 color : #000000;
                 font-weight: 400;
-                padding: 100px 0 0 80px;
-                margin-top: 100px;   
+                padding: 30px 0 0 80px;
+                margin-top: 40px;  
+
         }
 
 }
