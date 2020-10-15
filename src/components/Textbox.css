@@ -61,11 +61,12 @@
 }
 
 
-.instatext{
+.instatext {
     color:#ADADAD;
     font-size: 12px;
     font-weight: 400;
     text-decoration: none;
+    padding-top: 5px;
 }
 
 @media screen and (max-width:768px) {
@@ -86,6 +87,7 @@
         border-radius: 10px;
         border: solid #BBDBF0 6px;
         box-shadow: 6px 6px 18px rgba(24, 65, 101 ,.15);
+        
     }
     .contentsbox3{
         width: 320px;

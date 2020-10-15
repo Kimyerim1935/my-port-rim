@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { HashRouter ,  Route } from 'react-router-dom'
+import { BrowserRouter ,  Route } from 'react-router-dom'
 import Navigation from './components/Navigation';
 import Main from './routes/Main';
 import About from './routes/About';
@@ -9,7 +9,7 @@ import Contect from './routes/Contect';
 
 function App() {
   return ( 
-   <HashRouter> 
+   <BrowserRouter> 
      <div>
        <Navigation/> 
        
@@ -21,7 +21,7 @@ function App() {
          </div> 
       </div> 
 
-  </HashRouter>
+  </BrowserRouter>
   );
 }
 

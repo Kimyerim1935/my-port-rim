@@ -3,9 +3,10 @@ import './About.css';
 import Myimg2 from '../SVG/ME2.svg';
 import Textbox from '../components/Textbox';
 import Textbox2 from '../components/Textbox2';
-import Insta from '../components/Insta';
+import  Insta from './Insta';
 import Mbti from '../components/Mbti';
-
+import { Route } from 'react-router-dom';
+import Instagram from './Instagram';
 
 function About(){
     return (
@@ -21,6 +22,7 @@ function About(){
              <div className="about02">
              <h2 className="title">Interests</h2>
              <Insta / >
+            <Route path ="/About/Instagram" exact={true} component={Instagram}/>
              <h2 className="title2">Propensity</h2>
              <Mbti/>
              </div>

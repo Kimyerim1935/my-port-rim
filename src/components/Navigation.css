@@ -10,7 +10,7 @@
     width: 100%;
     height: 80px;
     padding: 0 15px 0 15px;
-
+    background-color: rgba(249,249, 249, .5);
 
 }
 
@@ -48,11 +48,16 @@
 
 @media screen and (max-width:768px) {
     .nav {
+        position: fixed;
+        top: 0.2s ease-in-out;
+        left: 0;
+        right: 0;
         flex-direction: column;
         align-items: flex-start;
         padding: 15px 15px 0 15px;
         margin: 0;
         background-color: #f9f9f9;
+        height: 100px;
     }
     .navlogo{
         align-items: flex;
