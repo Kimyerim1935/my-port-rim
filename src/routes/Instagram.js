@@ -1,13 +1,13 @@
 import React from 'react';
 import './Instagram.css';
-import '../components/Textbox.css';
 
-function Instagram() {
+function Instagram(){
   return (
     <div className="insta__container">
+      hello<p/>
       hello
     </div>
   );
 }
 
-export default Instagram;
+export default Instagram();

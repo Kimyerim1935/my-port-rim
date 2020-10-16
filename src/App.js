@@ -7,6 +7,7 @@ import About from './routes/About';
 import Portfolio from './routes/Portfolio';
 import Contect from './routes/Contect';
 
+
 function App() {
   return ( 
    <BrowserRouter> 
@@ -18,6 +19,7 @@ function App() {
             <Route path='/About' component={About} /> 
             <Route path='/Portfolio' component={Portfolio} /> 
             <Route path='/Contect' component={Contect} /> 
+            
          </div> 
       </div> 
 

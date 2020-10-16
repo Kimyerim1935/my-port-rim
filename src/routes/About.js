@@ -5,8 +5,10 @@ import Textbox from '../components/Textbox';
 import Textbox2 from '../components/Textbox2';
 import  Insta from './Insta';
 import Mbti from '../components/Mbti';
-import { Link,  Route , BrowserRouter} from 'react-router-dom'
+import { BrowserRouter ,  Route , Link } from 'react-router-dom'
 import Instagram from './Instagram';
+
+
 
 
 function About(){
@@ -24,8 +26,8 @@ function About(){
              <div className="about02">
              <h2 className="title">Interests</h2>
              <Insta / >
-             <Link to="./Instagram" / >
-             <Route exact path='/About/Instagram' component={Instagram} /> 
+            <Link to='/Instagram'></Link>
+             <Route path='/Instagram' component={Instagram} /> 
              <h2 className="title2">Propensity</h2>
              <Mbti/>
              </div>
