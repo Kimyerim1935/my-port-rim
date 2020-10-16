@@ -1,14 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../components/Textbox.css';
 import Instasvg from'../SVG/Insta.svg';
+import { BrowserRouter ,  Route , Link } from 'react-router-dom'
+import Instagram from './Instagram';
+import About from './About';
 
 function Insta (){
     return(
-        <div className="contentsbox3">
+        <BrowserRouter>
+         <div className="contentsbox3">
             <img src={Instasvg} alt="Instasvg" />
-            <Link to="/About/Instagram" className="instatext">Click to see more</Link>
+            <Link to="./Instagram" className="instatext" > Click to see more</Link>
+            <Route exact path='/Instagram' component={Instagram} useHistory={About}/> 
         </div>
+        </BrowserRouter>
+         
+
+      
     )
 }
 

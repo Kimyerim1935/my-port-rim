@@ -8,22 +8,24 @@
 .Contect__container1{
     width: 50%;
     height: 100%;
-    padding: 120px 0 0 20px;
+    padding: 100px 0 20px 20px;
 }
 .Contect__container2{
     width: 50%;
     height: 100%;
-    padding: 120px 0 0 20px;
+    padding: 100px 0 20px 20px;
 
 }
 .contecttext{
     font-size: 30px;
+    width: 400px;
     font-weight: 700;
     color: #002B52;
 }
 
 .Resume{
     display: inline;
+    margin-bottom: 20px;
 }
 
 .Intro1 {
@@ -32,6 +34,7 @@
 
 .Intro2 {
     display: inline;
+    margin-top: 20px;
 }
 
 @media screen and (max-width:768px) {
@@ -63,6 +66,7 @@
     .Intro2{
         width:160%;
         height:150%;
-        padding-left: 10px;
+        padding:20px 0 0 10px;
+        display: inline;
     }
 }
