@@ -6,11 +6,13 @@ import Textbox2 from '../components/Textbox2';
 import  Insta from './Insta';
 import Mbti from '../components/Mbti';
 import Instagram from './Instagram';
-import { Route } from 'react-router-dom';
+import { Switch, Route, withRouter } from 'react-router-dom';
 
+  
 
 function About(){
-    return (
+    return <React.Fragment>
+        <Switch>
         <div className="about__container">
          <img src={Myimg2} alt="me2" className="me2" / >
              <div className="about01">
@@ -25,10 +27,11 @@ function About(){
              <Insta / >
              <h2 className="title2">Propensity</h2>
              <Mbti/>
-             <Route path='/Instagram' component= {Instagram} />
+             <Route path='/Instagram' component= {withRouter(Instagram)} />
              </div>
         </div>
-    );
+        </Switch>
+        </React.Fragment>
 }
 
 export default About;
