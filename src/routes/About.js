@@ -5,15 +5,12 @@ import Textbox from '../components/Textbox';
 import Textbox2 from '../components/Textbox2';
 import  Insta from './Insta';
 import Mbti from '../components/Mbti';
-import { BrowserRouter ,  Route , Link } from 'react-router-dom'
 import Instagram from './Instagram';
-
-
+import { Route } from 'react-router-dom';
 
 
 function About(){
     return (
-        <BrowserRouter>
         <div className="about__container">
          <img src={Myimg2} alt="me2" className="me2" / >
              <div className="about01">
@@ -26,13 +23,11 @@ function About(){
              <div className="about02">
              <h2 className="title">Interests</h2>
              <Insta / >
-            <Link to='/Instagram'></Link>
-             <Route path='/Instagram' component={Instagram} /> 
              <h2 className="title2">Propensity</h2>
              <Mbti/>
+             <Route path='/Instagram' component= {Instagram} />
              </div>
         </div>
-        </BrowserRouter>
     );
 }
 

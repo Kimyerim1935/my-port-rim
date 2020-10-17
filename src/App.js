@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter ,  Route } from 'react-router-dom'
+import { BrowserRouter ,  Route , Switch } from 'react-router-dom'
 import Navigation from './components/Navigation';
 import Main from './routes/Main';
 import About from './routes/About';
@@ -11,6 +11,7 @@ import Contect from './routes/Contect';
 function App() {
   return ( 
    <BrowserRouter> 
+   <Switch>
      <div>
        <Navigation/> 
        
@@ -22,7 +23,7 @@ function App() {
             
          </div> 
       </div> 
-
+      </Switch>
   </BrowserRouter>
   );
 }
