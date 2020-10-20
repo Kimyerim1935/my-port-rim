@@ -89,8 +89,9 @@
     .contentsbox3{
         width: 320px;
         height: 230px;
-        padding: 20px 10px 50px 10px;
+        padding: 50 px 10px 50px 10px;
         align-items: center;
+        justify-content: center;
         font-size: 16px;
         border-radius: 10px;
         border: solid #BBDBF0 6px;

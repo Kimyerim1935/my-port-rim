@@ -9,7 +9,7 @@ function Insta (){
     return(
          <div className="contentsbox3">
              <img src={Instasvg} alt="Instasvg" />
-             <Link to="/Instagram" className="instatext"> Click Here</Link>
+             <Link to={{pathname:'/Instagram', className:'instatext'}}> Click Here</Link>
         </div>   
 
     );

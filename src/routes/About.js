@@ -5,8 +5,6 @@ import Textbox from '../components/Textbox';
 import Textbox2 from '../components/Textbox2';
 import  Insta from './Insta';
 import Mbti from '../components/Mbti';
-import Instagram from './Instagram';
-import { Route, withRouter, BrowserRouter } from 'react-router-dom';
 
   
 
@@ -27,9 +25,6 @@ function About(){
              <Insta / >
              <h2 className="title2">Propensity</h2>
              <Mbti/>
-            <BrowserRouter>
-             <Route path='/Instagram' component= {withRouter(Instagram)} />
-             </BrowserRouter>
              </div>
         </div>
 

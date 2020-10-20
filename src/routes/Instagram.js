@@ -1,15 +1,10 @@
 import React from 'react';
-import './Instagram.css';
 
-
-function Instagram(){
-  console.log('thisisInstagram');
-  return (
-    <div className="insta__container">
-      hello<p/>
-      hello
-    </div>
-  );
+function Instagram(props){
+  console.log(props);
+  return <span>hello</span>;
 }
 
-export default Instagram();
+
+
+export default Instagram;
