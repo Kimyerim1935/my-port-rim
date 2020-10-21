@@ -14,6 +14,10 @@
 
 }
 
+.active {
+    text-decoration: solid;
+}
+
 .navlogo{
     align-items: flex;
     width: 175px;
@@ -43,7 +47,7 @@
     color: #6BB4DD;
 }
 .navmenu a:active {
-    color : #034783;
+background-color: royalblue;
 }
 
 
