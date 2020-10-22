@@ -1,15 +1,13 @@
 import React from 'react';
 import '../components/Textbox.css';
 import Instasvg from'../SVG/Insta.svg';
-import { Link } from 'react-router-dom';
-
+import {  NavLink } from 'react-router-dom';
 
 function Insta (){
-    console.log('welcome_Insta');
     return(
          <div className="contentsbox3">
              <img src={Instasvg} alt="Instasvg" />
-             <Link to={{pathname:'/Instagram', className:'instatext'}}> Click Here</Link>
+             <NavLink to="/About/Instagram" className="instatext">Click to see more</NavLink>
         </div>   
 
     );

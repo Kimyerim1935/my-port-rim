@@ -5,7 +5,7 @@ import Main from './routes/Main';
 import About from './routes/About';
 import Portfolio from './routes/Portfolio';
 import Contect from './routes/Contect';
-
+import Instagram from './routes/Instagram';
 
 function App() {
   return ( 
@@ -19,7 +19,6 @@ function App() {
               <NavLink to="/About" activeClassName="active">About</NavLink>
               <NavLink to="/Portfolio" activeClassName="active" >Portfolio</NavLink>
               <NavLink to="/Contect" activeClassName="active" >Contect</NavLink>
- 
           </div>
         
       </div>
@@ -28,9 +27,8 @@ function App() {
             <Route path='/About' component={About} /> 
             <Route path='/Portfolio' component={Portfolio} /> 
             <Route path='/Contect' component={Contect} /> 
+            <Route path="/About/Instagram" component={Instagram} / > 
          </div> 
-
-
   </BrowserRouter>
   );
 }
