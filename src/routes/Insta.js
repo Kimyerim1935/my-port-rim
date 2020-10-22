@@ -7,7 +7,7 @@ function Insta (){
     return(
          <div className="contentsbox3">
              <img src={Instasvg} alt="Instasvg" />
-             <NavLink to="/About/Instagram" className="instatext">Click to see more</NavLink>
+             <NavLink  exact to="/Instagram" className="instatext"> Click to see more</NavLink>
         </div>   
 
     );

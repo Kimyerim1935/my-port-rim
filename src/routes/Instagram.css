@@ -1,5 +1,55 @@
-.insta__container{
+.instaContainer{
     width: 100%;
-    height: 100%;
-    background-color: seagreen;
+    height: 100vh;
+    display: flex;
+    overflow: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.back{
+    color:#ADADAD;
+    font-size: 12px;
+    font-weight: 400;
+    height: 20px;
+    text-decoration: none;
+    margin: 75px 5px 0 15px;
+}
+
+
+.Instacontents {
+    width: 30%;
+    height: 560px;
+    margin: 120px 20px 0 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+}
+
+@media screen and (max-width:768px) {
+    .instaContainer{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+        padding: 50px 20px 20px 20px;
+        background-color: lightskyblue;
+    }
+
+    .back{
+        color:#ADADAD;
+        font-size: 12px;
+        font-weight: 400;
+        height: 20px;
+        text-decoration: none;
+        margin: 75px 5px 0 30px;
+    }
+    .Instacontents {
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+        background-color: lightgreen;
+    }
+    
 }

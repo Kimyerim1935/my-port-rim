@@ -27,7 +27,7 @@ function App() {
             <Route path='/About' component={About} /> 
             <Route path='/Portfolio' component={Portfolio} /> 
             <Route path='/Contect' component={Contect} /> 
-            <Route path="/About/Instagram" component={Instagram} / > 
+            <Route path="/Instagram"  component={Instagram} / > 
          </div> 
   </BrowserRouter>
   );
