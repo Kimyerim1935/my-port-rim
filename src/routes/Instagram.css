@@ -20,28 +20,44 @@
 .Instacontents {
     width: 30%;
     height: 580px;
-    margin: 120px 20px 0 30px;
+    margin: 100px 20px 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightcoral;
 }
 
 .Instatitle{
     font-size: 20px;
     color: #034783;
     font-weight: 700;
+    
 }
-
+.InstaPro{
+    margin: 10px 0 10px 5px;
+}
 .InstaCompo{
     width: 300px;
     height: 500px;
     box-shadow: 6px 6px 18px rgba(24, 65, 101 ,.15);
-    margin-left: 10px
+    margin:5px 0 0 10px;
+    border-radius: 10px;
 }
 
-.Line{
-    margin-top: 40px;
+.InstaImg{
+    width: 300px;
+    height: 300px;
+    margin-top:10px;
+}
+.InstaImgNav{
+    width: 300px;
+    height: 45px;
+}
+.InstaDate {
+    color:#ADADAD;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 5px;
 }
 
 @media screen and (max-width:768px) {
@@ -51,8 +67,7 @@
         display: flex;
         overflow: auto;
         flex-direction: column;
-        padding: 30px 20px 20px 20px;
-        background-color: lightskyblue;
+        padding-top: 40px;
     }
 
     .back{
@@ -60,14 +75,15 @@
         font-size: 12px;
         font-weight: 400;
         height: 20px;
+        width: 30px;
         text-decoration: none;
-        margin: 75px 5px 0 30px;
+        margin: 80px 5px 0 35px;
+        background-color: lightseagreen;
     }
     .Instacontents {
         width: 400px;
         align-items: center;
         justify-content: center;
-        background-color: lightgreen;
     }
     
 }
