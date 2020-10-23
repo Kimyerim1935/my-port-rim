@@ -21,9 +21,17 @@
     width: 30%;
     height: 560px;
     margin: 120px 20px 0 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: lightgreen;
+}
+
+.Instatitle{
+    font-size: 20px;
+    color: #034783;
+    font-weight: 700;
 }
 
 @media screen and (max-width:768px) {
@@ -33,7 +41,7 @@
         display: flex;
         overflow: auto;
         flex-direction: column;
-        padding: 50px 20px 20px 20px;
+        padding: 30px 20px 20px 20px;
         background-color: lightskyblue;
     }
 

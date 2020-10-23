@@ -11,13 +11,16 @@ function Instagram(){
         <Route path='/About' component={About} />
 
         <div className="Instacontents">
-HELLOHELLO
+
+          <h2 className="Instatitle">Take a Picture</h2>
         </div>
+
         <div className="Instacontents">
-     HI     
+         <h2 className="Instatitle">Eat Dessert</h2>
         </div>
+       
         <div className="Instacontents">
-       YERIM   
+         <h2 className="Instatitle"> Exhibition </h2>
         </div>
        
     </div>
