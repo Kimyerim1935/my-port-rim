@@ -19,19 +19,29 @@
 
 .Instacontents {
     width: 30%;
-    height: 560px;
-    margin: 120px 20px 0 20px;
-    padding-top: 30px;
+    height: 580px;
+    margin: 120px 20px 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightgreen;
+    background-color: lightcoral;
 }
 
 .Instatitle{
     font-size: 20px;
     color: #034783;
     font-weight: 700;
+}
+
+.InstaCompo{
+    width: 300px;
+    height: 500px;
+    box-shadow: 6px 6px 18px rgba(24, 65, 101 ,.15);
+    margin-left: 10px
+}
+
+.Line{
+    margin-top: 40px;
 }
 
 @media screen and (max-width:768px) {
