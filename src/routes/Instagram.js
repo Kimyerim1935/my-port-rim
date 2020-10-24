@@ -11,6 +11,7 @@ import Hashtag1 from '../SVG/Hashtag1.svg';
 import Hashtag2 from '../SVG/Hashtag2.svg';
 import Hashtag3 from '../SVG/Hashtag3.svg';
 
+
 function Instacontents1(){
   return(
     <div className="Instacontents">
