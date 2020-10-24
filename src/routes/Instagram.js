@@ -5,11 +5,14 @@ import About from './About';
 import InstaMenu from '../SVG/InstaMenu.svg';
 import InstaButton from '../SVG/InstaButton.svg';
 import InstaPro from '../SVG/InstaPro.svg';
+import Heart from '../SVG/Heart.svg';
+import Bookmark from '../SVG/Bookmark.svg';
+import Hashtag1 from '../SVG/Hashtag1.svg';
 
-function Instacontents(){
+function Instacontents1(){
   return(
     <div className="Instacontents">
-      <h2 className="Instatitle">tack</h2>
+      <h2 className="Instatitle">Take a Picture</h2>
        <div className="InstaCompo">
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
@@ -17,8 +20,54 @@ function Instacontents(){
 
            </div>
            <div className="InstaImgNav">
+            <img src={Heart} alt="Heart" / >
+            <img src={Bookmark} alt="Book" / >
+           </div>
+           <img src={Hashtag1} alt="hash1" className="Hash" / >
+           <h3 className="InstaDate">2020. 04. 26</h3>
+          <img src={InstaButton} alt="button" / >
+      </div>
+  </div>
+  );
+}
+
+function Instacontents2(){
+  return(
+    <div className="Instacontents">
+      <h2 className="Instatitle">Take a Picture</h2>
+       <div className="InstaCompo">
+         <img src={InstaMenu} alt="Instamenu" / >
+           <img src={InstaPro} alt="profile" className="InstaPro"/ >
+           <div className="InstaImg">
 
            </div>
+           <div className="InstaImgNav">
+            <img src={Heart} alt="Heart" / >
+            <img src={Bookmark} alt="Book" / >
+           </div>
+           <img src={Hashtag1} alt="hash1" className="Hash" / >
+           <h3 className="InstaDate">2020. 04. 26</h3>
+          <img src={InstaButton} alt="button" / >
+      </div>
+  </div>
+  );
+}
+
+function Instacontents3(){
+  return(
+    <div className="Instacontents">
+      <h2 className="Instatitle">Take a Picture</h2>
+       <div className="InstaCompo">
+         <img src={InstaMenu} alt="Instamenu" / >
+           <img src={InstaPro} alt="profile" className="InstaPro"/ >
+           <div className="InstaImg">
+
+           </div>
+           <div className="InstaImgNav">
+            <img src={Heart} alt="Heart" / >
+            <img src={Bookmark} alt="Book" / >
+           </div>
+           <img src={Hashtag1} alt="hash1" className="Hash" / >
            <h3 className="InstaDate">2020. 04. 26</h3>
           <img src={InstaButton} alt="button" / >
       </div>
@@ -28,15 +77,14 @@ function Instacontents(){
 
 
 
-
 function Instagram(){
   return (
     <div className="instaContainer">
        <Link to="/About" className="back">Back</Link>
         <Route path='/About' component={About} />
-       <Instacontents / >
-       <Instacontents / >
-       <Instacontents / >
+       <Instacontents1 / >
+       <Instacontents2 / >
+       <Instacontents3 / >
    
         </div>
 

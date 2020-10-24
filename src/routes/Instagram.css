@@ -5,6 +5,7 @@
     overflow: auto;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .back{
@@ -20,24 +21,32 @@
 .Instacontents {
     width: 30%;
     height: 580px;
-    margin: 100px 20px 0 30px;
+    margin: 70px 20px 5px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .Instatitle{
     font-size: 20px;
     color: #034783;
     font-weight: 700;
-    
 }
 .InstaPro{
-    margin: 10px 0 10px 5px;
+    margin: 5px 0 5px 5px;
 }
+.Name{
+    font-weight: 700;
+    color: black;
+    font-size: 10px;
+    margin-left: 5px;
+    line-height: 5px;
+}
+
 .InstaCompo{
     width: 300px;
-    height: 500px;
+    height: 550px;
     box-shadow: 6px 6px 18px rgba(24, 65, 101 ,.15);
     margin:5px 0 0 10px;
     border-radius: 10px;
@@ -45,19 +54,25 @@
 
 .InstaImg{
     width: 300px;
-    height: 300px;
-    margin-top:10px;
+    height: 280px;
+    background-color: blueviolet;
 }
 .InstaImgNav{
     width: 300px;
-    height: 45px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+.Hash{
+    margin: 5px 5px 0 5px;
 }
 .InstaDate {
     color:#ADADAD;
     font-size: 12px;
     font-weight: 400;
     text-decoration: none;
-    margin-left: 5px;
+    margin:10px 0 10px 5px;
 }
 
 @media screen and (max-width:768px) {
@@ -78,12 +93,12 @@
         width: 30px;
         text-decoration: none;
         margin: 80px 5px 0 35px;
-        background-color: lightseagreen;
     }
     .Instacontents {
         width: 400px;
         align-items: center;
         justify-content: center;
+
     }
     
 }
