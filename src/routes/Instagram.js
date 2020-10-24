@@ -8,6 +8,8 @@ import InstaPro from '../SVG/InstaPro.svg';
 import Heart from '../SVG/Heart.svg';
 import Bookmark from '../SVG/Bookmark.svg';
 import Hashtag1 from '../SVG/Hashtag1.svg';
+import Hashtag2 from '../SVG/Hashtag2.svg';
+import Hashtag3 from '../SVG/Hashtag3.svg';
 
 function Instacontents1(){
   return(
@@ -34,7 +36,7 @@ function Instacontents1(){
 function Instacontents2(){
   return(
     <div className="Instacontents">
-      <h2 className="Instatitle">Take a Picture</h2>
+      <h2 className="Instatitle">Eat Dessert</h2>
        <div className="InstaCompo">
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
@@ -45,7 +47,7 @@ function Instacontents2(){
             <img src={Heart} alt="Heart" / >
             <img src={Bookmark} alt="Book" / >
            </div>
-           <img src={Hashtag1} alt="hash1" className="Hash" / >
+           <img src={Hashtag2} alt="hash2" className="Hash" / >
            <h3 className="InstaDate">2020. 04. 26</h3>
           <img src={InstaButton} alt="button" / >
       </div>
@@ -56,7 +58,7 @@ function Instacontents2(){
 function Instacontents3(){
   return(
     <div className="Instacontents">
-      <h2 className="Instatitle">Take a Picture</h2>
+      <h2 className="Instatitle">Exhibition</h2>
        <div className="InstaCompo">
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
@@ -67,7 +69,7 @@ function Instacontents3(){
             <img src={Heart} alt="Heart" / >
             <img src={Bookmark} alt="Book" / >
            </div>
-           <img src={Hashtag1} alt="hash1" className="Hash" / >
+           <img src={Hashtag3} alt="hash3" className="Hash" / >
            <h3 className="InstaDate">2020. 04. 26</h3>
           <img src={InstaButton} alt="button" / >
       </div>

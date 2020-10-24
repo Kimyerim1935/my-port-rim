@@ -55,14 +55,14 @@
 .InstaImg{
     width: 300px;
     height: 280px;
-    background-color: blueviolet;
+
 }
 .InstaImgNav{
     width: 300px;
     height: 30px;
     padding: 5px 5px 5px 5px;
     justify-content: space-between;
-    background-color: cadetblue;
+
 }
 .Hash{
     margin: 5px 5px 0 5px;
