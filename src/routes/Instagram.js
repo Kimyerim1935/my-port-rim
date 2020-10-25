@@ -10,6 +10,7 @@ import Bookmark from '../SVG/Bookmark.svg';
 import Hashtag1 from '../SVG/Hashtag1.svg';
 import Hashtag2 from '../SVG/Hashtag2.svg';
 import Hashtag3 from '../SVG/Hashtag3.svg';
+import Carousel from '../components/Horizontal.js';
 
 
 function Instacontents1(){
@@ -20,7 +21,7 @@ function Instacontents1(){
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
            <div className="InstaImg">
-
+              <Carousel / >
            </div>
            <div className="InstaImgNav">
             <img src={Heart} alt="Heart" / >
