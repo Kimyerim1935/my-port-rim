@@ -43,7 +43,7 @@ function Instacontents2(){
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
            <div className="InstaImg">
-
+           <Carousel / >
            </div>
            <div className="InstaImgNav">
             <img src={Heart} alt="Heart" / >
