@@ -68,12 +68,13 @@
     font-weight: 400;
     line-height: 30px;
 }
-.righ2{
-    margin-left: 40px;
-    width: 150px;
+.right2{
+    margin-left: 65px;
+    width: 170px;
     text-align: right;
     font-weight: 400;
     line-height: 30px;
+    background-color: blueviolet;
 }
 
 .instatext {

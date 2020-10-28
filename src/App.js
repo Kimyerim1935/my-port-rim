@@ -6,13 +6,14 @@ import About from './routes/About';
 import Portfolio from './routes/Portfolio';
 import Contect from './routes/Contect';
 import Instagram from './routes/Instagram';
+import Logo from './SVG/Logo.svg';
 
 function App() {
   return ( 
    <BrowserRouter> 
      <div className="nav">
           <div className="navlogo">
-        <h3>hello i am logo</h3>
+            <img src={Logo} alt="logo" / >
           </div>
             <div className="navmenu">
               <NavLink exact to="/" activeClassName="active">Main</NavLink>
