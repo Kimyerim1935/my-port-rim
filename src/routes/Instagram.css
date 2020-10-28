@@ -64,6 +64,9 @@
     justify-content: space-between;
 
 }
+.margin{
+    margin-right: 250px;
+}
 .Hash{
     margin: 5px 5px 0 5px;
 }

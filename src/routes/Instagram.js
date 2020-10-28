@@ -10,7 +10,9 @@ import Bookmark from '../SVG/Bookmark.svg';
 import Hashtag1 from '../SVG/Hashtag1.svg';
 import Hashtag2 from '../SVG/Hashtag2.svg';
 import Hashtag3 from '../SVG/Hashtag3.svg';
-import ImgSlide from '../components/ImgSlider';
+import Take01 from '../SVG/Take01.jpg';
+import Eat01 from '../SVG/Eat01.jpg';
+import Ex01 from '../SVG/Ex01.jpg';
 
 
 function Instacontents1(){
@@ -21,10 +23,10 @@ function Instacontents1(){
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
            <div className="InstaImg">
-              <ImgSlide / >
+              <img src={Take01} alt="Take01" / >
            </div>
            <div className="InstaImgNav">
-            <img src={Heart} alt="Heart" / >
+            <img src={Heart} alt="Heart" className="margin" / >
             <img src={Bookmark} alt="Book" / >
            </div>
            <img src={Hashtag1} alt="hash1" className="Hash" / >
@@ -43,10 +45,10 @@ function Instacontents2(){
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
            <div className="InstaImg">
-           
+           <img src={Eat01} alt="Eat01" / >
            </div>
            <div className="InstaImgNav">
-            <img src={Heart} alt="Heart" / >
+            <img src={Heart} alt="Heart" className="margin" / >
             <img src={Bookmark} alt="Book" / >
            </div>
            <img src={Hashtag2} alt="hash2" className="Hash" / >
@@ -65,10 +67,10 @@ function Instacontents3(){
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
            <div className="InstaImg">
-
+           <img src={Ex01} alt="Ex01" / >
            </div>
            <div className="InstaImgNav">
-            <img src={Heart} alt="Heart" / >
+            <img src={Heart} alt="Heart" className="margin" / >
             <img src={Bookmark} alt="Book" / >
            </div>
            <img src={Hashtag3} alt="hash3" className="Hash" / >
