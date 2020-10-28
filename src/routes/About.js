@@ -30,15 +30,15 @@ function About02() {
 }
 
 function About(){
-    return <React.Fragment>
+    return (
         <div className="about__container">
          <img src={Myimg2} alt="me2" className="me2" / >
            <About01 / >
             <About02 />
           
         </div>
-
-        </React.Fragment>
+);
+       
 }
 
 export default About;
