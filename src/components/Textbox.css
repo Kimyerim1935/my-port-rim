@@ -3,6 +3,8 @@
     height: 230px;
     padding: 10px 10px 10px 10px;
     flex-direction: row;
+    align-items: center;
+    display: flex;
     font-size: 16px;
     border-radius: 10px;
     border: solid #BBDBF0 6px;
@@ -12,7 +14,9 @@
     width: 390px;
     height: 165px;
     padding: 10px 10px 10px 10px;
-    flex-direction: row;    
+    flex-direction: row;
+    display: flex;
+    align-items: center;    
     font-size: 16px;
     border-radius: 10px;
     border: solid #BBDBF0 6px;
@@ -43,17 +47,33 @@
     box-shadow: 6px 6px 18px rgba(24, 65, 101 ,.15);
 }
 
-.leftbox{
+.left{
     font-weight: 400;
+    width: 120px;
+    text-align: left;
+    line-height: 25px;
+ 
+}
+
+.left2{
+    font-weight: 400;
+    width: 120px;
     text-align: left;
     line-height: 15px;
-    background-color: blueviolet;
 }
-.rightbox{
-    width: 60%;
+.right{
+    margin-left: 40px;
+    width: 200px;
     text-align: right;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 30px;
+}
+.righ2{
+    margin-left: 40px;
+    width: 150px;
+    text-align: right;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .instatext {
