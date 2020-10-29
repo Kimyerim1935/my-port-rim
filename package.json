@@ -2,7 +2,7 @@
   "name": "my-port",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Kimyerim1935.github.io/my-port",
+  
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -25,9 +25,7 @@
     "start": "node index.js",
     "build": "react-scripts build",
     "test": "make test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "npm run -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
