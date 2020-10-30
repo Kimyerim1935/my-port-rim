@@ -8,6 +8,7 @@ import Contect from './routes/Contect';
 import Instagram from './routes/Instagram';
 import Logo from './SVG/Logo.svg';
 
+
 function App() {
   return ( 
    <BrowserRouter> 
@@ -21,7 +22,7 @@ function App() {
               <NavLink to="/Portfolio" activeClassName="active" >Portfolio</NavLink>
               <NavLink to="/Contect" activeClassName="active" >Contect</NavLink>
           </div>
-        
+            
       </div>
          <div> 
             <Route exact path='/' component={Main} /> 
@@ -29,7 +30,9 @@ function App() {
             <Route path='/Portfolio' component={Portfolio} /> 
             <Route path='/Contect' component={Contect} /> 
             <Route path="/Instagram"  component={Instagram} / > 
+            
          </div> 
+
   </BrowserRouter>
   );
 }
