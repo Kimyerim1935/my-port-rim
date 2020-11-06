@@ -12,27 +12,30 @@ import Logo from './SVG/Logo.svg';
 function App() {
   return ( 
    <BrowserRouter> 
+   <div>
      <div className="nav">
           <div className="navlogo">
+          <NavLink exact to="/my-port-rim">
             <img src={Logo} alt="logo" / >
+          </NavLink>
           </div>
             <div className="navmenu">
-              <NavLink exact to="/" activeClassName="active">Main</NavLink>
-              <NavLink to="/About" activeClassName="active">About</NavLink>
-              <NavLink to="/Portfolio" activeClassName="active" >Portfolio</NavLink>
-              <NavLink to="/Contect" activeClassName="active" >Contect</NavLink>
+              <NavLink exact to="/my-port-rim" activeClassName="active">Main</NavLink>
+              <NavLink to="/my-port-rim/About" activeClassName="active">About</NavLink>
+              <NavLink to="/my-port-rim/Portfolio" activeClassName="active" >Portfolio</NavLink>
+              <NavLink to="/my-port-rim/Contect" activeClassName="active" >Contect</NavLink>
           </div>
             
       </div>
          <div> 
-            <Route exact path='/' component={Main} /> 
-            <Route path='/About' component={About} /> 
-            <Route path='/Portfolio' component={Portfolio} /> 
-            <Route path='/Contect' component={Contect} /> 
-            <Route path="/Instagram"  component={Instagram} / > 
+            <Route exact path='/my-port-rim' component={Main} /> 
+            <Route path='/my-port-rim/About' component={About} /> 
+            <Route path='/my-port-rim/Portfolio' component={Portfolio} /> 
+            <Route path='/my-port-rim/Contect' component={Contect} /> 
+            <Route path="/my-port-rim/Instagram"  component={Instagram} / > 
             
          </div> 
-
+         </div>
   </BrowserRouter>
   );
 }
