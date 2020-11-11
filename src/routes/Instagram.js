@@ -10,10 +10,9 @@ import Bookmark from '../SVG/Bookmark.svg';
 import Hashtag1 from '../SVG/Hashtag1.svg';
 import Hashtag2 from '../SVG/Hashtag2.svg';
 import Hashtag3 from '../SVG/Hashtag3.svg';
-import Take01 from '../SVG/Take01.jpg';
-import Eat01 from '../SVG/Eat01.jpg';
-import Ex01 from '../SVG/Ex01.jpg';
 import ImgSlider from '../components/ImgSlider';
+import ImgSlider2 from '../components/ImgSlider2';
+import ImgSlider3 from '../components/ImgSlider3';
 
 function Instacontents1(){
   return(
@@ -45,7 +44,7 @@ function Instacontents2(){
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
            <div className="InstaImg">
-           <img src={Eat01} alt="Eat01" / >
+           <ImgSlider2 />
            </div>
            <div className="InstaImgNav">
             <img src={Heart} alt="Heart" className="margin" / >
@@ -67,7 +66,7 @@ function Instacontents3(){
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
            <div className="InstaImg">
-           <img src={Ex01} alt="Ex01" / >
+           <ImgSlider3 />
            </div>
            <div className="InstaImgNav">
             <img src={Heart} alt="Heart" className="margin" / >
