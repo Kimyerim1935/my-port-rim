@@ -1,0 +1,23 @@
+.img-slide{
+    width: 300px;
+    height: 280px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-image{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

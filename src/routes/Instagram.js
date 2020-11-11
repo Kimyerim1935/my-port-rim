@@ -13,7 +13,7 @@ import Hashtag3 from '../SVG/Hashtag3.svg';
 import Take01 from '../SVG/Take01.jpg';
 import Eat01 from '../SVG/Eat01.jpg';
 import Ex01 from '../SVG/Ex01.jpg';
-
+import ImgSlider from '../components/ImgSlider';
 
 function Instacontents1(){
   return(
@@ -23,7 +23,7 @@ function Instacontents1(){
          <img src={InstaMenu} alt="Instamenu" / >
            <img src={InstaPro} alt="profile" className="InstaPro"/ >
            <div className="InstaImg">
-              <img src={Take01} alt="Take01" / >
+              <ImgSlider / >
            </div>
            <div className="InstaImgNav">
             <img src={Heart} alt="Heart" className="margin" / >
