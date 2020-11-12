@@ -65,7 +65,11 @@
 
 }
 .margin{
-    margin-right: 250px;
+    margin-right: 95px;
+}
+.dot{
+    margin-right: 95px;
+    align-items: center;
 }
 .Hash{
     margin: 5px 5px 0 5px;

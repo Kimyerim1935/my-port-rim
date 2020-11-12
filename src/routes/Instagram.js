@@ -13,6 +13,7 @@ import Hashtag3 from '../SVG/Hashtag3.svg';
 import ImgSlider from '../components/ImgSlider';
 import ImgSlider2 from '../components/ImgSlider2';
 import ImgSlider3 from '../components/ImgSlider3';
+import Dots from '../SVG/dot.svg';
 
 function Instacontents1(){
   return(
@@ -26,6 +27,7 @@ function Instacontents1(){
            </div>
            <div className="InstaImgNav">
             <img src={Heart} alt="Heart" className="margin" / >
+            <img src={Dots} alt="dots" className="dot"/>
             <img src={Bookmark} alt="Book" / >
            </div>
            <img src={Hashtag1} alt="hash1" className="Hash" / >
@@ -48,6 +50,7 @@ function Instacontents2(){
            </div>
            <div className="InstaImgNav">
             <img src={Heart} alt="Heart" className="margin" / >
+            <img src={Dots} alt="dots" className="dot"/>
             <img src={Bookmark} alt="Book" / >
            </div>
            <img src={Hashtag2} alt="hash2" className="Hash" / >
@@ -70,6 +73,7 @@ function Instacontents3(){
            </div>
            <div className="InstaImgNav">
             <img src={Heart} alt="Heart" className="margin" / >
+            <img src={Dots} alt="dots" className="dot"/>
             <img src={Bookmark} alt="Book" / >
            </div>
            <img src={Hashtag3} alt="hash3" className="Hash" / >
