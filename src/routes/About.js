@@ -10,9 +10,9 @@ function About01(){
     return(
         <div className="about01">
         <h2 className="title">Information</h2>
-         <Textbox / >
+         <Textbox />
          <h2 className="title2">Education</h2>
-        <Textbox2 / >
+        <Textbox2 />
     </div>
     );
 }
@@ -21,7 +21,7 @@ function About02() {
     return(
         <div className="about02">
         <h2 className="title">Interests</h2>
-        <Insta / >
+        <Insta />
      
         <h2 className="title2">Propensity</h2>
         <Mbti/>
@@ -32,8 +32,8 @@ function About02() {
 function About(){
     return (
         <div className="about__container">
-         <img src={Myimg2} alt="me2" className="me2" / >
-           <About01 / >
+         <img src={Myimg2} alt="me2" className="me2" />
+           <About01 />
             <About02 />
           
         </div>
