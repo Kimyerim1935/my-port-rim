@@ -20,19 +20,19 @@ function Instacontents1(){
     <div className="Instacontents">
       <h2 className="Instatitle">Take a Picture</h2>
        <div className="InstaCompo">
-         <img src={InstaMenu} alt="Instamenu" / >
-           <img src={InstaPro} alt="profile" className="InstaPro"/ >
+         <img src={InstaMenu} alt="Instamenu" />
+           <img src={InstaPro} alt="profile" className="InstaPro"/>
            <div className="InstaImg">
-              <ImgSlider / >
+              <ImgSlider />
            </div>
            <div className="InstaImgNav">
-            <img src={Heart} alt="Heart" className="margin" / >
+            <img src={Heart} alt="Heart" className="margin" />
             <img src={Dots} alt="dots" className="dot"/>
-            <img src={Bookmark} alt="Book" / >
+            <img src={Bookmark} alt="Book" />
            </div>
-           <img src={Hashtag1} alt="hash1" className="Hash" / >
+           <img src={Hashtag1} alt="hash1" className="Hash" />
            <h3 className="InstaDate">2020. 04. 26</h3>
-          <img src={InstaButton} alt="button" / >
+          <img src={InstaButton} alt="button" />
       </div>
   </div>
   );
@@ -43,19 +43,19 @@ function Instacontents2(){
     <div className="Instacontents">
       <h2 className="Instatitle">Eat Dessert</h2>
        <div className="InstaCompo">
-         <img src={InstaMenu} alt="Instamenu" / >
-           <img src={InstaPro} alt="profile" className="InstaPro"/ >
+         <img src={InstaMenu} alt="Instamenu" />
+           <img src={InstaPro} alt="profile" className="InstaPro"/>
            <div className="InstaImg">
            <ImgSlider2 />
            </div>
            <div className="InstaImgNav">
-            <img src={Heart} alt="Heart" className="margin" / >
+            <img src={Heart} alt="Heart" className="margin" />
             <img src={Dots} alt="dots" className="dot"/>
             <img src={Bookmark} alt="Book" / >
            </div>
-           <img src={Hashtag2} alt="hash2" className="Hash" / >
+           <img src={Hashtag2} alt="hash2" className="Hash" />
            <h3 className="InstaDate">2020. 04. 26</h3>
-          <img src={InstaButton} alt="button" / >
+          <img src={InstaButton} alt="button" />
       </div>
   </div>
   );
@@ -66,19 +66,19 @@ function Instacontents3(){
     <div className="Instacontents">
       <h2 className="Instatitle">Exhibition</h2>
        <div className="InstaCompo">
-         <img src={InstaMenu} alt="Instamenu" / >
-           <img src={InstaPro} alt="profile" className="InstaPro"/ >
+         <img src={InstaMenu} alt="Instamenu" />
+           <img src={InstaPro} alt="profile" className="InstaPro"/>
            <div className="InstaImg">
            <ImgSlider3 />
            </div>
            <div className="InstaImgNav">
-            <img src={Heart} alt="Heart" className="margin" / >
+            <img src={Heart} alt="Heart" className="margin" />
             <img src={Dots} alt="dots" className="dot"/>
-            <img src={Bookmark} alt="Book" / >
+            <img src={Bookmark} alt="Book" />
            </div>
-           <img src={Hashtag3} alt="hash3" className="Hash" / >
+           <img src={Hashtag3} alt="hash3" className="Hash" />
            <h3 className="InstaDate">2020. 04. 26</h3>
-          <img src={InstaButton} alt="button" / >
+          <img src={InstaButton} alt="button" />
       </div>
   </div>
   );
@@ -91,9 +91,9 @@ function Instagram(){
     <div className="instaContainer">
        <Link to="/my-port-rim/About" className="back">Back</Link>
         <Route path='/my-port-rim/About' component={About} />
-       <Instacontents1 / >
-       <Instacontents2 / >
-       <Instacontents3 / >
+       <Instacontents1 />
+       <Instacontents2 />
+       <Instacontents3 />
    
         </div>
 

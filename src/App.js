@@ -16,7 +16,7 @@ function App() {
      <div className="nav">
           <div className="navlogo">
           <NavLink exact to="/my-port-rim">
-            <img src={Logo} alt="logo" / >
+            <img src={Logo} alt="logo" />
           </NavLink>
           </div>
             <div className="navmenu">
@@ -32,7 +32,7 @@ function App() {
             <Route path='/my-port-rim/About' component={About} /> 
             <Route path='/my-port-rim/Portfolio' component={Portfolio} /> 
             <Route path='/my-port-rim/Contect' component={Contect} /> 
-            <Route path="/my-port-rim/Instagram"  component={Instagram} / > 
+            <Route path="/my-port-rim/Instagram"  component={Instagram} /> 
             
          </div> 
          </div>
