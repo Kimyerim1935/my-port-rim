@@ -89,7 +89,7 @@ function Instacontents3(){
 function Instagram(){
   return (
     <div className="instaContainer">
-       <Link to="/my-port-rim/About" className="back">Back</Link>
+       <Link to="/my-port-rim/About" className="back">&lt; Back</Link>
         <Route path='/my-port-rim/About' component={About} />
        <Instacontents1 />
        <Instacontents2 />
